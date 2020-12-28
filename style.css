@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: stretch;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#button-1, #button-2, #button-3, #button-4, #button-5{
+    width: 50%;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin-top: 25rem;
+    margin-left: 2rem;
+}
